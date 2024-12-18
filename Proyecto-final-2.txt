@@ -1,0 +1,32 @@
+--------------------
+Problemática:
+"La compañia estadounidense Am MeganDesign está realizando un nuevo modelo de muebles
+basados en planos del famoso diseñador martín vaccoto pero muchas piezas
+no han encajado  debido a que los planos estan en cms y las maquinarias americanas en
+pulgadas"
+--------------------
+Algoritmo
+1. Solicitar las medidas de la pieza del mueble en cms
+2. Convertirlas de cm a pulgadas
+3. Mostrar las medidas convertidas al usuario
+--------------------
+Inicio
+    # Paso 1: Solicitar las medidas de la pieza del mueble en cms
+    mostrar msj: "Por favor, ingresar la medida de la pieza del mueble en cms: "
+
+    # Paso 2: Convertirlas de cm a pulgadas.
+    convertir medidas_en_pulgadas = medida_en_cms / 2.54
+
+    # Paso 3: Mostrar medidas al usuario.
+    mostrar mensaje: "Las medidas en pulgadas de la pieza ingresada son: ", medida_en_ pulgadas
+Fin
+
+
+
+
+
+
+
+--------------------
+--------------------
+--------------------
